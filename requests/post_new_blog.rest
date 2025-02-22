@@ -1,0 +1,10 @@
+
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+  {
+    "title" : "Randomizer",
+    "author" : "RandomRat",
+    "url" : "http://cheesetobite.dns/whymeagain",
+    "likes" : "2"
+  }
