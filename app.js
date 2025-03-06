@@ -9,6 +9,7 @@ const blogsRouter = require('./controllers/blogs')
 const middleware = require('./utils/middleware')
 const { info, errorMsg } = require('./utils/logger')
 const mongoose = require('mongoose')
+require('express-async-errors')
 
 info('connecting to MongoDB...')
 

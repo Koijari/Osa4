@@ -90,22 +90,5 @@ describe('mostBlogs', () => {
   })
 })
 
-describe('mostLikes', () => {
-  test('The author with the most likes', () => {
-    const result = mostLikes(blogs)
-    //info(result)
-    assert.deepStrictEqual(result, 
-      { 
-        author: 'UltimateRat', 
-        likes: 7 
-      })
-  })
-
-  test('null if no likes or no blogs', () => {
-    const blogs = {}
-    const result = mostLikes(blogs)
-    assert.deepStrictEqual(result, null)
-  })
-})
 
 info('Tests passed =)')

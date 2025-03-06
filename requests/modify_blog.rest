@@ -1,0 +1,10 @@
+
+PUT http://localhost:3003/api/blogs/67c973076e6ef05d800768ab
+Content-Type: application/json
+
+{
+  "title": "Päivitetty blogi",
+  "author": "ModifierRat",
+  "url": "http://harshbuttrue.com",
+  "likes": 7
+}
