@@ -6,5 +6,6 @@ Content-Type: application/json
     "title" : "Randomizer",
     "author" : "RandomRat",
     "url" : "http://cheesetobite.dns/whymeagain",
-    "likes" : "2"
+    "likes" : "2",
+    "userId" : "67cf21d8f2df14decd60cba7"
   }
